@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #24272E;
+    font-family: 'Kanit', sans-serif;
+}
+
+#header {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 3em;
+    border-radius: 20%;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+header > h1 {
+    color: #24272E;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.score-board {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 10%;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge {
+    background: blue;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+    border-radius: 10%;
+}
+
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -25px;
+    border-radius: 10%;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+}
+
+.result > p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.choices {
+    margin-top: 50px 0;
+    text-align: center;
+}
+
+.choice {
+    border: 4px solid white;
+    border-radius: 10%;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 20px;
+    background-color: rgb(94, 101, 119);
+    transition: all 0.5s ease;
+}
+
+.choices > .choice > img {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: rgb(52, 70, 124);
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.green-glow {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+    border: 4px solid #b9b95e;
+    box-shadow: 0 0 10px #6e6e39;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
